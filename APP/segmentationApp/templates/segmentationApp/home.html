@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Tissue Tumor Detection System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            /* Changed background color to blue */
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #fff;
+            /* Changed text color to white */
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .project-details-left-side {
+            width: 60%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-details-left-side h1,
+        .project-details-left-side h2,
+        .project-details-left-side h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .sidebar {
+            width: 30%;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .sidebar img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to SoftTumor Detection System</h1>
+        <a href="help.html" class="btn">Help</a>
+    </header>
+    <div class="container">
+        <div class="project-details-left-side">
+            <h2 style="color: #007bff;">Empowering Radiology with AI</h2>
+            <p>The SoftTumor Detection System is an advanced AI-powered platform designed to assist radiologists in the
+                detection and analysis of soft tissue tumors in medical imaging scans. Leveraging state-of-the-art deep
+                learning algorithms and cutting-edge image processing techniques, our system aims to streamline the
+                diagnostic process, improve accuracy, and enhance patient care.</p>
+            <h3>Key Features:</h3>
+            <ul>
+                <li>Automated Detection: Quickly and accurately detect soft tissue tumors in MRI and CT scans.</li>
+                <li>Expert Validation: Radiologists can review and validate the AI-generated results for increased
+                    confidence.</li>
+                <li>Detailed Reports: Generate comprehensive reports with annotated findings and diagnostic insights.
+                </li>
+                <li>User-Friendly Interface: Intuitive interface designed for ease of use and seamless integration into
+                    existing workflows.</li>
+            </ul>
+            <h3>Why Choose Us:</h3>
+            <ul>
+                <li>Unrivaled Accuracy: Our AI models are trained on extensive datasets and validated against clinical
+                    standards to ensure reliable performance.</li>
+                <li>Efficiency Boost: Save time and resources with automated tumor detection and analysis, allowing
+                    radiologists to focus on critical cases.</li>
+
+            </ul>
+        </div>
+        <div class="sidebar">
+            <img src="https://media.istockphoto.com/id/1197479998/photo/mri-digital-x-ray-of-brain-with-team-radiologist-doctor-oncology-working-together-in-clinic.jpg?s=1024x1024&w=is&k=20&c=6D3tq59h07jszID7SGtc_R-TTRGQRGCaZ1PwEfCtYKw="
+                alt="Project Image">
+            <h3>Get Started:</h3>
+            <p>Ready to experience the future of radiology? Click below to learn more about how SoftTumor Detection
+                System can revolutionize your diagnostic process.</p>
+            <form name="methods" action="/main/" method="get" onsubmit="">
+                <button type="submit" class="btn">Learn More</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

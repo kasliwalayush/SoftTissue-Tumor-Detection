@@ -1,0 +1,13 @@
+opencv-python
+numpy
+scikit-learn
+keras==2.2.4
+torch
+SimpleITK
+tensorboardX
+torchsummary
+Django
+albumentations
+tensorflow
+torchvision
+segmentation-models
